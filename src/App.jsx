@@ -42,7 +42,7 @@ function App() {
 
   // Load the index first
   useEffect(() => {
-    fetch('/notes_index.json')
+    fetch(`${import.meta.env.BASE_URL}notes_index.json`)
       .then(res => res.json())
       .then(data => {
         setIndex(data);
@@ -65,7 +65,7 @@ function App() {
     if (!selectedNote) return;
     
     setLoading(true);
-    fetch(`/notes/${selectedNote}`)
+    fetch(`${import.meta.env.BASE_URL}notes/${selectedNote}`)
       .then((res) => res.text())
       .then((text) => {
         const { data, content } = parseFrontmatter(text)
