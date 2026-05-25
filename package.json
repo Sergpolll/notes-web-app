@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -t true"
+    "deploy": "gh-pages -d dist -t"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
