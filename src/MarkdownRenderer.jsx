@@ -24,7 +24,7 @@ const MarkdownRenderer = ({ content }) => {
       // Text definitions highlight
       .replace(/==(.*?)==/g, '<mark class="highlight-blue">$1</mark>')
       // Obsidian callouts
-      .replace(/^>\s*\[!QUOTE\](.*)$/gm, '> <strong class="callout-title">$1</strong>\n>')
+      .replace(/^>\s*\[!QUOTE\]\s*([^,\n]*)(.*)$/gm, '> <strong class="callout-title">$1</strong>\n>')
       .replace(/^>\s*\[!WARNING\](.*)$/gm, '> <strong class="callout-title warning">⚠️ $1</strong>\n>');
   };
 
