@@ -1,6 +1,7 @@
 ---
 title: "Essay_2026_05_28"
 date: "2026-05-28"
+time: "09:20"
 author: "Poliakevych Serhii"
 book: Essay
 topic: "Мелодія Закону: Зроби Слово Боже саундтреком свого життя"
