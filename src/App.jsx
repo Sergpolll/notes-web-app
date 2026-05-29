@@ -132,6 +132,7 @@ function App() {
                 <h1 className="main-title">{metadata.web_title || metadata.topic || metadata.title}</h1>
                 <div className="meta-info">
                   <span className="date-badge">{metadata.date}</span>
+                  {metadata.time && <span className="time-badge">{metadata.time}</span>}
                 </div>
               </header>
             )}

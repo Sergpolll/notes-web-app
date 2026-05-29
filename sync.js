@@ -88,6 +88,7 @@ function processDirectory() {
           groupedNotes[monthName].push({
             filename: destFileName,
             date: metadata.date,
+            time: metadata.time || '',
             topic: metadata.web_title || metadata.topic || metadata.title,
             type: metadata.type || 'note'
           });
