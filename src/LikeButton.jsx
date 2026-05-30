@@ -18,7 +18,7 @@ const LikeButton = ({ noteId }) => {
     }
 
     // Fetch initial count
-    fetch(`https://api.counterapi.dev/v1/${namespace}/${safeId}`)
+    fetch(`https://api.counterapi.dev/v1/${namespace}/${safeId}/`)
       .then(res => res.json())
       .then(data => {
         setLikes(data.count || 0);
