@@ -4,7 +4,7 @@ date: "2026-06-04"
 time: "08:25"
 author: "Poliakevych Serhii"
 book: Essay
-topic: "Милосердне каміння з неба"
+topic: "Божий град проти життєвих опор"
 scripture: ["Нав. 10:10-12"]
 type: "essay"
 tags: ["essay", "poliakevych", "чудо", "идол", "испытание"]
